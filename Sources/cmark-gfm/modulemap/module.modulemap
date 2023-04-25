@@ -1,0 +1,4 @@
+module cmark_gfm [system] {
+    header "../include/autolink.h"
+    export *
+}

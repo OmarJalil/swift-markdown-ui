@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'Sources/cmark-gfm/include/*.h', 'Sources/cmark-gfm/*.c', 'Sources/MarkdownUI/**/*.swift'
   s.header_dir    = 'MarkdownUI'
+  s.module_map    = 'Sources/cmark-gfm/modulemap/module.modulemap'
 end

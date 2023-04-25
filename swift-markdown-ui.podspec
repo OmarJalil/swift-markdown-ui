@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '15.0'
   s.watchos.deployment_target = '8.0'
 
-  s.source_files  = 'Sources/**/**/*.{swift,h}, Sources/**/*.{swift,h}'
+  s.source_files  = 'Sources/**/**/*.{swift,h,c,inc}, Sources/**/*.{swift,h,c,inc}'
   s.header_dir    = 'MarkdownUI'
 end
